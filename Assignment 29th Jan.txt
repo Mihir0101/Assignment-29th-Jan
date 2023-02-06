@@ -1,0 +1,110 @@
+Q.1  Who devloped python programming language?
+->   Guido Van Rossum devloped python programming language.
+
+
+Q.2  Which type of programming does pythonn support?
+->   Object-Oriented
+
+
+Q.3  Is python case sensitive when it dealing whith identifiers?
+->   Yes
+
+
+Q.4  What is the correct extension for python file?
+->   .py
+
+
+Q.5  Is python code compiled or interpreted?
+->   In various books of python programming, it is mentioned that python language is interpreted. But that is half correct the python program is first        compiled and then interpreted. The compilation part is hidden from the programmer thus, many programmers believe that it is an interpreted language. 
+
+
+Q.6  Name a few block of code used to define in python language.
+->   Indentation
+    
+    
+Q.7  State a character used to define in python language.
+->   Unicode code point
+
+
+Q.8  Mentions functions which can help us to find the vesion of python that we are curruntly working on.
+->   sys.version 
+
+
+Q.9  Python support the creation of anonymous function at runtime,using cunstruct called Lambda.
+
+
+Q.10  What does pip stand for in python?
+->    Python pip is the package manager for Python packages.
+
+
+Q.11  Mention few built-in function in python.
+->    list(),append(),extend(),insert(),find(),index()...
+
+
+Q.12  What is the maximum lengnth of identifier in python?
+->    79
+
+
+Q.13  What are the benifit of using python?
+->    Work with less code,easy Integrations,productivity...
+
+
+Q.14  How memory is managed in python?
+->    Python memory manager takes care of the bulk of the memory management work and allows us to concentrate on our code.
+
+
+Q.15  How to install python in windows and set path variable?
+->    
+     Step 1.
+    Open an administrative command prompt by going to
+    Start > Windows System > Command Prompt.
+    Next, right-click on the command prompt icon, choose More, then choose “run as administrator".
+    command
+    
+    Step 2.
+    Once the Type in the python command, and then press Enter. If the System Variable Path is correctly set, you should receive output similar to what is     shown below.
+
+    command2
+    When using Powershell, the output will look like this.
+
+    command3
+    If an error is seen indicating that the Python command is unknown, but we have confirmed that Python is installed and can be launched from within its     directory, we will need to add the Python path to the System Environment Variables. Continue to Step 3 to accomplish this.
+
+    Step 3.
+    To begin, type in Win+R to open a run dialog box, Then type in sysdm.cpl and hit enter. This will open the System Properties dialog box.
+
+    Click on the Advanced tab at the top and then on the Environment Variables button at the bottom.
+
+    Environment Variables button
+    Step 4.
+    This will open both the User and System Variables dialog box.
+
+    User and System Variables dialog box
+    Step 5.
+    Now, we will create a new User Variable. Click on the New button.
+
+    New button
+    A new window will open. Now we will enter the following data in the open fields.
+
+    Python
+    C:\Users\*username*\AppData\Local\Programs\Python\Python38 (change the variable value to match your actual installation path).
+    new.user.variable
+    Step 6.
+    Next, find the Path entry in the System variable section, select it and then click the Edit button.
+
+    system-variables-path
+    A new window will open. We will create a New entry that matches the Path variable we created in step 5 with the addition of "\Scripts" to the end of     the entry like so.(C:\Users\*yourusername*\AppData\Local\Programs\Python\Python38\Scripts\
+
+    new sys env variable
+    Step 7.
+    Click the OK button on all three open windows to save the entries.
+
+    We can now verify that we have completed this task successfully by opening a new administrative command prompt windows and typing in “python”      (without the quotes).
+
+    command2
+    We will receive a response similar to what is shown above. By following these quick steps, you’ll be able to access Python from any command prompt.
+
+
+
+Q.16  Is indentation required in python?
+->    Indentation is essential in Python
